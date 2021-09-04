@@ -3,9 +3,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
-	<artifactId>CW_to_S3</artifactId>
+	<artifactId>CWtoS3andDynamo</artifactId>
 	<packaging>jar</packaging>
-	<name>CW_to_S3</name>
+	<name>CWtoS3andDynamo</name>
 	<version>1.0.0</version>
 
 	<properties>
@@ -71,7 +71,11 @@
 			<artifactId>aws-java-sdk-dynamodb</artifactId>
 			<version>1.12.61</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-core</artifactId>
+			<version>1.11.947</version>
+		</dependency>
 	</dependencies>
 
 	<build>

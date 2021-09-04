@@ -37,4 +37,15 @@ public class BatchMetaInf {
     public void setSize(int size) {
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("BatchMetaInf{");
+        sb.append("start=").append(start);
+        sb.append(", end=").append(end);
+        sb.append(", count=").append(count);
+        sb.append(", size=").append(size);
+        sb.append('}');
+        return sb.toString();
+    }
 }
